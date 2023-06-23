@@ -1,0 +1,45 @@
+/* basic css stuff */
+
+.et_pb_module.reach-branding {
+  a:before {
+    content: url('images/reach-favicon.png');
+    padding-right: 4px;
+  }
+}
+
+// line height on submenu
+.et_pb_module.et_pb_menu { // adjust the line height 
+  .sub-menu { // ul 
+    li {
+      a { // flyout menu.
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 1.5em;
+      }
+    }
+  }
+}
+
+sup {
+  bottom: .2em;
+}
+
+// buttons in text via et-buttons
+.et_pb_post,
+.tribe-events-content {
+  a.small-button,
+  a.big-button {
+    color: $button-color!important;
+    border-radius: 0px;
+    border: 1px solid $form-button-border;
+  }
+  a.bigblue {
+    background-color: $form-button-bkg!important;
+    background: $form-button-bkg!important;
+  }
+  a.bigblue:hover {
+    color: $button-color!important;
+    background-color: $form-button-hover-bkg!important;
+    background: $form-button-hover-bkg!important;
+  }
+}
