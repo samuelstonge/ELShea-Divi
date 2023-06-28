@@ -36,3 +36,23 @@
 			}
 	} // gform footer
 } // gform wrapper
+
+//gform sumbit button on 'Join Our Team' page
+#gform_submit_button_2 {
+	margin: auto;
+	background-color: #5b7755;
+	border-width: 1.6px;
+	border-color: white;
+	color: white;
+	font-family: 'Crimson Text',Georgia,"Times New Roman",serif;
+	letter-spacing: 1px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 48px;
+	padding-right: 48px;
+	text-transform: capitalize;
+	:hover {
+		background-color: #a2b58f;
+		border-color: #a2b58f;
+	}
+}
