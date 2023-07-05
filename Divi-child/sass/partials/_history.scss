@@ -1,0 +1,30 @@
+//Controls the spacing between the images and text on the 'Our History' page
+.history-row {
+    display: flex;
+    flex-wrap: wrap;
+    .et_pb_column {
+        width: 65% !important; 
+    }
+    .et_pb_column.et-last-child {
+        width: 25% !important;
+        margin: auto;
+    }
+}
+
+//flip the order of the columns when in the mobile view 
+@media (max-width: 980px) {
+    .history-row {
+        flex-direction: column;
+        .et_pb_column { 
+            width: 100% !important;
+            order: 2; 
+        }
+        .et_pb_column.et-last-child { 
+            width:100% !important; 
+            order: 1;
+            margin: auto; 
+            justify-content: center; 
+            padding-bottom: 12px;
+        }
+    }
+}
