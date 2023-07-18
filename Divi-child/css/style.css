@@ -173,11 +173,6 @@ sup {
     padding-bottom: 12px;
   }
 }
-.service-gallery .et-pb-slider-arrows .et-pb-arrow-next,
-.service-gallery .et-pb-slider-arrows .et-pb-arrow-prev {
-  color: #F4F5F4 !important;
-}
-
 /* **** media **** */
 @media all and (max-width: 980px) {
   .reverse {
